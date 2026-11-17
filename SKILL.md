@@ -6,6 +6,11 @@ name: dy-engine
 description: 抖音视频分析数据源（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.0
+display_name: "抖音视频分析｜选题·竞品·评论洞察·热点追踪"
+display_name_en: "Douyin Video Analytics"
+description_zh: "抖音公开数据只读技能：关键词搜索视频与图文、用户/达人搜索、博主作品与粉丝数据、单条作品详情、视频图文评论、实时热榜，并可按剧本做需求挖掘与公域获客（搜索→评论）；支持综合/最多点赞/最新排序与时间窗筛选，按量单次最多 10000 条，包月视频/用户搜索与作品最多 30、评论最多 50，全部以结构化 JSON 输出，不登录、不发布、不点赞、不评论，适用于爆款选题、对标账号、竞品监控、舆情分析与热点追踪。"
+description_en: "Read-only Douyin public data skill: keyword search for videos and image posts, user and creator search, creator posts and follower stats, single post detail, video and image-post comments, and real-time trending, plus demand-mining and public-lead acquisition playbooks (search to comments); supports relevance / most-liked / latest sorting and time-window filtering, up to 10,000 rows per pay-as-you-go call, with monthly caps of 30 for video/user searches and posts and 50 for comments, all returned as structured JSON, with no login, posting, liking or commenting; for viral topic selection, benchmark accounts, competitor monitoring, sentiment analysis and trend tracking."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
